@@ -110,3 +110,66 @@ body {
 .card .card-left .lang ul li {
 	padding: .3rem;
 }
+
+.card .card-right{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: 100%;
+	align-items: center;
+	padding: .2rem;
+	margin-top: 4rem;
+}
+
+.card .card-right .formation{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+}
+
+.card .card-right .formation h3 {
+	font-family: Playfair Display, sans-serif;
+	text-align: center;
+	display: block;
+	background: #888888;
+	color: #ffffff;
+	margin-top: -.4rem;
+}
+
+.card .card-right .formation span {
+	padding: .2rem;
+	font-family: Montserrat, sans-serif;
+}
+
+.card .card-right .experience h3 {
+	font-family: Playfair Display, sans-serif;
+	text-align: center;
+	display: block;
+	background: #888888;
+	color: #ffffff;
+}
+
+.card .card-right .experience p{
+	color: #01AFCA;
+	font-family: Montaga, sans-serif;
+}
+
+.card .card-right .experience ul li {
+	padding: .1rem;
+	font-family: Montserrat, sans-serif;
+}
+
+.card .card-right .association h3 {
+	font-family: Playfair Display, sans-serif;
+	text-align: center;
+	display: block;
+	background: #888888;
+	color: #ffffff;
+}
+
+.card .card-right .association ul li{
+	padding: .3rem;
+	font-family:Montserrat, sans-serif;
+}
